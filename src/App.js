@@ -1,13 +1,17 @@
 import { Switch, Route } from "react-router-dom";
+
+import Home from "./components/Home/Home.js";
 import Product from "./components/Product/Product";
 
 function App() {
   return (
     <Switch>
-      <Route path="/">
+      <Route path="/" exact>
+        <Home />
+      </Route>
+      <Route path="/product">
         <Product />
       </Route>
-      <Route path="/product"></Route>
     </Switch>
   );
 }
