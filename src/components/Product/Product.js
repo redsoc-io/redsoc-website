@@ -1,4 +1,6 @@
 import "./main.scss";
+import { Link } from "react-router-dom";
+
 function Product() {
   return (
     <>
@@ -8,48 +10,28 @@ function Product() {
       <section>
         <nav>
           <ul>
-            <li>
-              <a href="#">Thiruvananthapuram</a>
-            </li>
-            <li>
-              <a href="#"> Kollam</a>
-            </li>
-            <li>
-              <a href="#">Alappuzha</a>
-            </li>
-            <li>
-              <a href="#">Pathanamthitta</a>
-            </li>
-            <li>
-              <a href="#">Kottayam</a>
-            </li>
-            <li>
-              <a href="#">Idukki</a>
-            </li>
-            <li>
-              <a href="#">Ernakulam</a>
-            </li>
-            <li>
-              <a href="#">Thrissur</a>
-            </li>
-            <li>
-              <a href="#">Palakkad</a>
-            </li>
-            <li>
-              <a href="#">Malappuram</a>
-            </li>
-            <li>
-              <a href="#">Kozhikode</a>
-            </li>
-            <li>
-              <a href="#">Wayanadu</a>
-            </li>
-            <li>
-              <a href="#">Kannur</a>
-            </li>
-            <li>
-              <a href="#">Kasaragod</a>
-            </li>
+            {[
+              "Thiruvananthapuram",
+              "Kollam",
+              "Alappuzha",
+              "Pathanamthitta",
+              "Kottayam",
+              "Idukki",
+              "Ernakulam",
+              "Thrissur",
+              "Palakkad",
+              "Malappuram",
+              "Kozhikode",
+              "Wayanadu",
+              "Kannur",
+              "Kasaragod",
+            ].map((state) => {
+              return (
+                <li>
+                  <Link to="/product">{state}</Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
 
