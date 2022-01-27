@@ -1,4 +1,4 @@
-function Member({name, url}) {
+function Member({ name, url }) {
   return (
     <div className="mem">
       <div>
@@ -12,16 +12,15 @@ function Mem() {
   return (
     <div className="members">
       <div className="memberdiv">
-      <Member url="/team/aiswarya.jpeg" name="AISWARYA P S" />
-      <Member url="/team/muhammad.jpg" name="MUHAMMAD R" />
-      <Member url="/team/aleena.png" name="ALEENA SHAJI REKHA" />
+        <Member url="/team/aiswarya.jpeg" name="AISWARYA P S" />
+        <Member url="/team/muhammad.jpg" name="MUHAMMAD R" />
+        <Member url="/team/aleena.png" name="ALEENA SHAJI REKHA" />
       </div>
       <div className="memberdiv">
-      <Member url="/team/midhunvnadh.jpeg" name="MIDHUN V NADH" />
-      <Member url="/team/goutham.jpeg" name="GOUTHAM SURESH" />
-      <Member url="/team/bilal.jpeg" name="BILAL N" />
+        <Member url="/team/midhunvnadh.jpeg" name="MIDHUN V NADH" />
+        <Member url="/team/goutham.jpeg" name="GOUTHAM SURESH" />
+        <Member url="/team/bilal.jpeg" name="BILAL N" />
       </div>
-      
     </div>
   );
 }

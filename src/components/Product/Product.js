@@ -1,6 +1,7 @@
 import "./main.scss";
 import { Link } from "react-router-dom";
-
+import Nav from "../Home/Nav";
+import Ls from "../Home/Linksection";
 function Product() {
   return (
     <>
