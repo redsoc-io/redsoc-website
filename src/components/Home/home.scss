@@ -1,0 +1,33 @@
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logoname{
+    margin-left: 10px;;
+
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.members{
+    padding: 60px;
+    .mem{
+        width: 33.33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .memlogo{
+            border-radius: 50%;
+        }
+    }
+    .memberdiv{
+        padding-bottom: 2em;
+        display: flex;
+        justify-content:space-evenly;
+    }
+}

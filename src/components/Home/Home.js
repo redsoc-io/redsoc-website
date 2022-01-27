@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
+import "./home.scss";
+import Navigation from "./Nav"
+import Members from "./Members"
 function Home() {
   return (
     <section>
-      <h1>REDSOC</h1>
-      <Link to="/product">Product page</Link>
+      <Navigation/>
+      <div>
+        <Members/>
+      </div>
     </section>
   );
 }
