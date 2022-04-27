@@ -19,7 +19,7 @@ function Mem() {
       <div className="memberdiv">
         <Member url="/team/midhunvnadh.jpeg" name="MIDHUN V NADH" />
         <Member url="/team/goutham.jpeg" name="GOUTHAM SURESH" />
-        <Member url="/team/bilal.jpeg" name="BILAL N" />
+        <Member url="/team/bilal.jpg" name="BILAL N" />
       </div>
     </div>
   );
