@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
 function Ls() {
   return (
-    <div>
+    <section>
       <div>
         <div>
-          <Link to="/products"> PRODUCTS</Link>
+          <div>
+            <Link to="/products"> PRODUCTS</Link>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 export default Ls;
