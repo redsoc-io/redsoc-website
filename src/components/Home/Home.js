@@ -11,7 +11,7 @@ function Home() {
       </section>
       <footer>
         <p>
-          <b>Covidbot</b> an health, socialservice platform from <b>Redsoc</b>
+          <b>lets get in touch</b>
         </p>
         <p>
           Terms of Service| Privacy| Statement| Master agreement| Copyright
