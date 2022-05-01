@@ -9,7 +9,7 @@ function Home() {
           <Members />
         </div>
       </section>
-      <footer>
+      <footer className="footer">
         <p>
           <b>lets get in touch</b>
         </p>

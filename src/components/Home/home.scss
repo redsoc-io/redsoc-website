@@ -13,6 +13,7 @@
 }
 .members {
   padding: 60px;
+  background-image: linear-gradient(rgb(254, 252, 255), rgb(23, 0, 34));
   .mem {
     width: 33.33%;
     display: flex;
@@ -28,9 +29,15 @@
     display: flex;
     justify-content: space-evenly;
   }
+ 
+  
 }
-
-
+.footer {
+  padding: 60px;
+  background-image: linear-gradient(rgb(66, 51, 66), rgb(59, 0, 87));
+  
+  
+}
 
 
 
